@@ -37,7 +37,7 @@ E|-----------------|  (main riff idea)`
       { name: "Vox Cry Baby Wah", settings: "Used selectively" },
       { name: "Maestro Echoplex", settings: "Slapback and longer delays" }
     ],
-    guitar: "Gibson Les Paul Standard ("Number One")",
+    guitar: "Gibson Les Paul Standard (\"Number One\")",
     notes: "Page used the natural overdrive of the Marshall. For Stairway clean tones he often used the Supro or direct into the board.",
     tabs: `e|-5-5-5-5-5-5-5-5-|
 B|-5-5-5-5-5-5-5-5-|
@@ -54,7 +54,7 @@ E|-5-5-5-5-5-5-5-5-|  (Black Dog power chords idea)`
     decade: "1970s",
     genre: "Rock",
     song: "Eruption / Ain't Talkin' 'Bout Love",
-    amp: "Marshall Super Lead ("the brown sound")",
+    amp: "Marshall Super Lead (\"the brown sound\")",
     ampSettings: "Volume on 10, all other knobs around 5-6, Variac lowered",
     pedals: [
       { name: "MXR Phase 90", settings: "Speed medium" },
@@ -107,9 +107,10 @@ E|---------------------|  (Money main riff idea)`
     ampSettings: "Gain high, Presence & Treble up, Bass controlled",
     pedals: [
       { name: "Boss DS-1 or SD-1", settings: "Used for extra drive" },
-      { name: "Cry Baby Wah", settings: "Classic rock wah" },n      { name: "MXR 10-Band EQ", settings: "Scooped mids sometimes" }
+      { name: "Cry Baby Wah", settings: "Classic rock wah" },
+      { name: "MXR 10-Band EQ", settings: "Scooped mids sometimes" }
     ],
-    guitar: "Gibson Les Paul Standard ("Kris Derrig" replica later)",
+    guitar: "Gibson Les Paul Standard (\"Kris Derrig\" replica later)",
     notes: "Hot-rodded Marshalls + Les Paul = the Appetite tone. Very aggressive midrange and sustain.",
     tabs: `e|-15-14-12-14-15-14-12-14-|
 B|-------------------------|
@@ -157,7 +158,7 @@ E|-1-1-1-1-x-x-x-x-|  (Teen Spirit power chords)`
       { name: "TS-9 / TS808", settings: "Mild overdrive" },
       { name: "Strymon Timeline / El Capistan", settings: "Subtle delay" }
     ],
-    guitar: "Fender Stratocaster ("Black1" / SRV inspired)",
+    guitar: "Fender Stratocaster (\"Black1\" / SRV inspired)",
     notes: "Modern blues tone: transparent overdrive, touch-sensitive, lots of midrange and dynamics.",
     tabs: `e|---------------------|
 B|-8-8-8-8-6-6-6-6-----|
@@ -174,13 +175,13 @@ E|---------------------|  (Gravity melody idea)`
     decade: "1970s",
     genre: "Rock",
     song: "Hey Hey, My My",
-    amp: "Fender Deluxe + Twin ("Old Black")",
+    amp: "Fender Deluxe + Twin (\"Old Black\")",
     ampSettings: "Cranked for natural grit",
     pedals: [
       { name: "Big Muff (sometimes)", settings: "For heavier moments" },
       { name: "Mutron Octave Divider", settings: "Used selectively" }
     ],
-    guitar: "Gibson Les Paul ("Old Black")",
+    guitar: "Gibson Les Paul (\"Old Black\")",
     notes: "Neil's tone is about volume, feedback, and the unique voice of Old Black through cranked Fenders.",
     tabs: `e|-----------------|
 B|-----------------|
