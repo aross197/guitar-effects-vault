@@ -265,7 +265,7 @@ select {
 /* Recorder */
 .recorder-section,
 .backing-section {
-  background-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .recorder-section h2,
