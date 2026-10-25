@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guitar Effects Vault</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-icon">🎸</span>
+        <h1>Guitar Effects Vault</h1>
+      </div>
+      <p class="tagline">Iconic tones • Tabs • Record yourself • Backing tracks</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Search & Filters -->
+    <section class="controls">
+      <input type="search" id="search" placeholder="Search artist, album, song, or effect..." />
+      <div class="filters">
+        <select id="genre-filter">
+          <option value="">All Genres</option>
+          <option value="Rock">Rock</option>
+          <option value="Metal">Metal</option>
+          <option value="Blues">Blues</option>
+          <option value="Indie">Indie</option>
+          <option value="Punk">Punk</option>
+        </select>
+        <select id="decade-filter">
+          <option value="">All Decades</option>
+          <option value="1960s">1960s</option>
+          <option value="1970s">1970s</option>
+          <option value="1980s">1980s</option>
+          <option value="1990s">1990s</option>
+          <option value="2000s">2000s</option>
+          <option value="2010s">2010s</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Artist Grid -->
+    <section id="artists-grid" class="artists-grid"></section>
+
+    <!-- Detail Panel (hidden by default) -->
+    <section id="detail-panel" class="detail-panel hidden">
+      <button id="close-detail" class="close-btn">← Back</button>
+      <div id="detail-content"></div>
+    </section>
+
+    <!-- Recorder Section -->
+    <section class="recorder-section">
+      <h2>Record Yourself</h2>
+      <p>Practice with the settings above. Hit record and play along.</p>
+      <div class="recorder-controls">
+        <button id="record-btn" class="btn primary">● Record</button>
+        <button id="stop-btn" class="btn" disabled>■ Stop</button>
+        <button id="play-recording-btn" class="btn" disabled>▶ Play Recording</button>
+        <span id="recording-status">Ready</span>
+      </div>
+      <audio id="recording-playback" controls class="hidden"></audio>
+    </section>
+
+    <!-- Backing Tracks -->
+    <section class="backing-section">
+      <h2>Backing Tracks</h2>
+      <p>Free practice tracks. More coming soon. (All tracks are placeholders or public-domain style loops.)</p>
+      <div class="tracks-list">
+        <div class="track-card">
+          <h3>Classic Rock Backing (Am)</h3>
+          <audio controls src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+        </div>
+        <div class="track-card">
+          <h3>Blues Shuffle (E)</h3>
+          <audio controls src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"></audio>
+        </div>
+        <div class="track-card">
+          <h3>Metal Rhythm (Drop D)</h3>
+          <audio controls src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"></audio>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Open source • Contribute on <a href="https://github.com/aross197/guitar-effects-vault" target="_blank">GitHub</a></p>
+      <p class="disclaimer">Settings are approximate and based on widely published interviews, gear lists, and community research. Always experiment!</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
